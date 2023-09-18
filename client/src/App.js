@@ -1,9 +1,11 @@
+import DashBoard from "./Components/Dashboard/DashBoard";
 import LoginSignup from "./Components/LoginSignup/LoginSignup";
 
 function App() {
   return (
     <div>
-      <LoginSignup />
+      {/* <LoginSignup /> */}
+      <DashBoard />
     </div>
   );
 }
